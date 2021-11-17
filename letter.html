@@ -6,14 +6,39 @@
     <head>
         <meta charset="utf-8">
         <html lang="en"></html>
-        <link rel="stylesheet" href="/styles/letter.css">
         <meta name="author" content="Rubén López">
+        <style>
+            body {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            
+            .sender-column {
+                text-align: right;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            h2 {
+                font-size: 1.3em;
+            }
+            
+            p,ul,ol,dl,address {
+                font-size: 1.1em;
+            }
+            
+            p, li, dd, dt, address {
+                line-height: 1.5;
+            }
+        </style>
         <title> Marking up a letter </title>
     </head>
     
     <body>
-        <div class="sender-column">
-            <address>
+
+            <address class="sender-column">
                 <p class="sender-column">
                     <strong>Eleanor Gaye</strong> <br>
                     Awesome Science faculty <br>
@@ -25,7 +50,6 @@
                 </p>
             </address>
             <p class="sender-column"><time datetime="2016-01-20">20 January 2016</time></p>
-        </div>
 
         <section id="reciever-column">
             <address>
@@ -97,7 +121,7 @@
                 
             </div>
         </main>
-       <footer>University of Awesome motto: <q cite="example.com"> "Be awesome to each other."</q> -- The memoirs of Bill S Preston, <abbr title=esquire> Esq.</abbr></footer>
+       <footer>University of Awesome motto: <q cite="example.com"> Be awesome to each other.</q> -- The memoirs of Bill S Preston, <abbr title=esquire> Esq.</abbr></footer>
     </body>
 </html>
 
