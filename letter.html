@@ -5,16 +5,17 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <html lang="en"></html>
         <link rel="stylesheet" href="/styles/letter.css">
         <meta name="author" content="Rubén López">
         <title> Marking up a letter </title>
     </head>
     
     <body>
-        <section id="sender-column">
+        <div class="sender-column">
             <address>
-                <p>
-                    <strong>Eleanor Gaye</strong> 
+                <p class="sender-column">
+                    <strong>Eleanor Gaye</strong> <br>
                     Awesome Science faculty <br>
                     University of Awesome <br>
                     Bobtown, CA 99999, <br>
@@ -23,8 +24,8 @@
                     <strong>E-mail:</strong> no_reply@example.com
                 </p>
             </address>
-            <time datetime="2016-01-20">20 January 2016</time>
-        </section>
+            <p class="sender-column"><time datetime="2016-01-20">20 January 2016</time></p>
+        </div>
 
         <section id="reciever-column">
             <address>
@@ -35,7 +36,7 @@
                     UK 
                 </p>
             </address>
-        </section>
+        </div>
         <main>
             <h1> Re: Eileen Dover university application </h1>
 
